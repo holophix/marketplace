@@ -41,25 +41,25 @@ GETTING TRANSACTIONS
 const transactions = await Moralis.Web3API.account.getTransactions();
 </pre>
 
-GETTING MATIC BALANCE
+GETTING ETH BALANCE
 
 <pre>
 const balance = await Moralis.Web3API.account.getNativeBalance();
 </pre>
 
-GETTING ERC20 BALANCE (RDCOIN AND OTHER TOKENS)
+GETTING ERC20 BALANCE 
 
 <pre>
 const balances = await Moralis.Web3API.account.getTokenBalances();
 </pre>
 
-GETTING NFT BALANCE (RNFT)
+GETTING NFT BALANCE (NFT)
 
 <pre>
-const userMaticNFTs = await Moralis.Web3API.account.getNFTs();
+const userEthNFTs = await Moralis.Web3API.account.getNFTs();
 </pre>
 
-SENDING MATIC BALANCE 
+SENDING ETH BALANCE 
 
 <pre>
 const options = {type: "native", amount: Moralis.Units.MATIC("0.5"), receiver: "0x.."}
