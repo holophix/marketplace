@@ -3,7 +3,7 @@
 ### 1. Clone
 
 ```
-$ git clone https://github.com/Raspberry-Dream-Land/marketplace.git
+$ git clone https://github.com/holographix-org/marketplace.git
 ```
 
 ### 2. Install Dependencies:
@@ -62,7 +62,7 @@ const userEthNFTs = await Moralis.Web3API.account.getNFTs();
 SENDING ETH BALANCE 
 
 <pre>
-const options = {type: "native", amount: Moralis.Units.MATIC("0.5"), receiver: "0x.."}
+const options = {type: "native", amount: Moralis.Units.ETH("0.5"), receiver: "0x.."}
 let result = await Moralis.transfer(options)
 </pre>
 
