@@ -1,4 +1,4 @@
-# Raspberry RNFT Marketplace
+#  Holographix Marketplace
 
 ### 1. Clone
 
@@ -22,8 +22,6 @@ $ npx hardhat node
 - Copy private key of the addresses and import to Metamask
 - Connect your metamask to hardhat blockchain, network 127.0.0.1:8545.
 
-![Screenshot](image_3.png)
-
 ### 5. Migrate Smart Contracts
 `npx hardhat run src/backend/scripts/deploy.js --network localhost`
 
@@ -32,13 +30,6 @@ $ npx hardhat node
 
 ### 7. Launch Frontend
 `$ npm run start`
-
-
-
-![Screenshot](image_1.png)
--
-![Screenshot](image_2.png)
-
 
 
 #### API Documentation for Marketplace
