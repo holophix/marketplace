@@ -32,8 +32,8 @@ describe("NFTMarketplace", function () {
     it("Should track name and symbol of the nft collection", async function () {
       // This test expects the owner variable stored in the contract to be equal
       // to our Signer's owner.
-      const nftName = "Raspberry NFT"
-      const nftSymbol = "RNFT"
+      const nftName = "Holographix"
+      const nftSymbol = "NFT"
       expect(await nft.name()).to.equal(nftName);
       expect(await nft.symbol()).to.equal(nftSymbol);
     });

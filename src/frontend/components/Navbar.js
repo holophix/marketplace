@@ -8,9 +8,9 @@ const Navigation = ({ web3Handler, account }) => {
     return (
         <Navbar expand="lg" bg="secondary" variant="dark">
             <Container>
-                <Navbar.Brand href="https://rdland.me/">
+                <Navbar.Brand href="https://holographix.org/">
                     <img src={market} width="40" height="40" className="" alt="" />
-                    &nbsp; Raspberry Marketplace
+                    &nbsp; Holographix Marketplace
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
@@ -33,7 +33,7 @@ const Navigation = ({ web3Handler, account }) => {
 
                             </Nav.Link>
                         ) : (
-                            <Button onClick={web3Handler} variant="outline-light">RD Wallet</Button>
+                            <Button onClick={web3Handler} variant="outline-light">Wallet</Button>
                         )}
                     </Nav>
                 </Navbar.Collapse>

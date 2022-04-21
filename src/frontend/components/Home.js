@@ -65,7 +65,7 @@ const Home = ({ marketplace, nft }) => {
                   <Card.Footer>
                     <div className='d-grid'>
                       <Button onClick={() => buyMarketItem(item)} variant="primary" size="lg">
-                        Buy for {ethers.utils.formatEther(item.totalPrice)} MATIC
+                        Buy for {ethers.utils.formatEther(item.totalPrice)} ETH
                       </Button>
                     </div>
                   </Card.Footer>
