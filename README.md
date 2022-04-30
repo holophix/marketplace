@@ -1,4 +1,4 @@
-#  Holographix Marketplace
+#  Holophix Marketplace
 
 ### 1. Clone
 
